@@ -158,3 +158,15 @@ frontend/               index.html, app.js, style.css, vendor/d3, graph.json
 
 Embeddings / clustering; movies/TMDb (phase 2); mood/tone axis; multi-lens
 switching; spatial coordinate layout; persistence.
+
+## License
+
+The code in this repository is MIT licensed — see [LICENSE](LICENSE).
+
+Two things it does **not** cover:
+
+- **The book data.** The UCSD Book Graph dumps this pipeline consumes are
+  released under an academic-use license and are not redistributable. They are
+  git-ignored; download them yourself from the source.
+- **`frontend/vendor/d3.v7.min.js`.** d3 v7.9.0, Copyright 2010-2023 Mike
+  Bostock, distributed under the ISC license.
