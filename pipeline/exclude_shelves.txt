@@ -1,0 +1,64 @@
+# Noise shelves to exclude from microgenre extraction.
+# One shelf name per line. Lines starting with '#' and blank lines are ignored.
+# Matching is case-insensitive against Goodreads popular_shelves names.
+# Edit freely once you see real data (see plan: exclude-list needs iteration).
+
+# --- reading status / intent ---
+to-read
+currently-reading
+read
+reading
+want-to-read
+did-not-finish
+dnf
+abandoned
+to-read-fiction
+to-read-nonfiction
+to-buy
+maybe
+
+# --- ownership ---
+owned
+owned-books
+books-i-own
+i-own
+own
+wish-list
+wishlist
+library
+my-library
+on-my-shelf
+kindle
+ebook
+ebooks
+audio
+audiobook
+audiobooks
+audible
+paperback
+hardcover
+physical
+
+# --- personal / rating / generic favorites ---
+favorites
+favourites
+favorite
+my-favorites
+all-time-favorites
+default
+books
+book
+general
+stuff
+misc
+other
+adult
+re-read
+reread
+to-reread
+recommended
+recommendations
+borrowed
+gifts
+series
+finished

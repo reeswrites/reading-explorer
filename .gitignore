@@ -1,0 +1,12 @@
+# Downloaded UCSD Book Graph data (~2GB, academic license — do not redistribute)
+data/*.json.gz
+data/*.json
+
+# Generated pipeline output
+frontend/graph.json
+
+# OS / editor
+.DS_Store
+*.swp
+__pycache__/
+*.pyc

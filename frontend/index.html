@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reading Explorer — Creator + Microgenre Graph</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="topbar">
+    <div id="brand">Reading&nbsp;Explorer</div>
+    <div id="search-wrap">
+      <input id="search" type="text" autocomplete="off" spellcheck="false"
+             placeholder="Search an author to start…" />
+      <ul id="results" hidden></ul>
+    </div>
+    <div id="legend">
+      <span class="legend-item"><span class="swatch author"></span>author</span>
+      <span class="legend-item"><span class="swatch genre"></span>microgenre</span>
+    </div>
+  </header>
+
+  <nav id="breadcrumb" aria-label="visited nodes"></nav>
+
+  <main id="stage">
+    <svg id="graph"></svg>
+    <div id="meta" hidden></div>
+    <div id="hint">Search for an author above to begin exploring.</div>
+    <div id="tooltip" hidden></div>
+  </main>
+
+  <script src="vendor/d3.v7.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
